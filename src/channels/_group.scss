@@ -1,0 +1,54 @@
+#app-mount {
+	.wrapper-PY0fhH {
+		justify-content: space-between;
+		height: auto;
+		position: unset;
+		padding: 0;
+		margin: 0 var(--spacing) var(--spacing-xs);
+		cursor: default;
+		&.muted-2JBAyG {
+			.container-2ax-kl,
+			.mainContent-2h-GEV {
+				color: var(--text-muted);
+			}
+		}
+	}
+	.arrow-gKvcEx {
+		position: unset;
+		margin-right: var(--spacing-sm);
+	}
+	.mainContent-2h-GEV {
+		background: var(--bg-lvl-2);
+		border-radius: var(--rounded-small);
+		color: var(--text-focus);
+		padding: var(--spacing-xs) var(--spacing-md) var(--spacing-xs) var(--spacing-sm);
+		display: flex;
+		align-items: center;
+		flex: none;
+		cursor: pointer;
+		.container-2ax-kl {
+			color: var(--text-normal);
+			font-size: var(--font-size-xsm);
+			line-height: normal;
+		}
+
+		&::before {
+			content: none;
+		}
+	}
+	.children-L002ao {
+		right: 0;
+		svg {
+			width: var(--channel-font-size);
+			height: var(--channel-font-size);
+		}
+		&:not(:empty) {
+			margin-left: var(--spacing-xl);
+		}
+	}
+
+
+	.containerDefault--pIXnN + .containerDefault-3tr_sE {
+		padding-top: var(--spacing-2xl);
+	}
+}

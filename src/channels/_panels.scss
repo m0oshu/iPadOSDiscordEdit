@@ -1,0 +1,60 @@
+#app-mount {
+	.panels-j1Uci_ {
+		background: transparent;
+	}
+
+	// User panel
+	.container-3baos1 {
+		background: var(--bg-lvl-2);
+		border-radius: var(--rounded-large);
+		box-shadow: var(--elevation-close);
+		margin-left: -72px;
+		padding: var(--spacing-xl);
+		height: auto;
+		margin-bottom: 0;
+		.avatarWrapper-2yR4wp {
+			margin-right: var(--spacing-xl);
+		}
+	}
+	.nameTag-3uD-yy {
+		display: flex;
+		align-items: center;
+	}
+	.title-eS5yk3 {
+		font-size: var(--font-size);
+	}
+	.subtext-3CDbHg {
+		font-size: var(--font-size);
+		font-weight: var(--font-weight-normal);
+	}
+
+	// Connected
+	.container-1giJp5 {
+		border: none;
+		margin-bottom: var(--app-spacing);
+		background: var(--bg-lvl-1);
+		margin-top: calc(var(--app-spacing) / -1 - 4px);
+		border-bottom-right-radius: var(--rounded-large);
+		padding: var(--spacing-xl);
+	}
+	.connection-3KRENF {
+		padding: 0;
+		margin-bottom: var(--spacing-xl);
+	}
+	.actionButtons-14eAc_ {
+		padding: 0;
+	}
+	.rtcConnectionStatus-2-jIsi {
+		padding-bottom: 0;
+		margin-bottom: var(--spacing);
+	}
+	
+	// Live
+	.activityPanel-28dQGo {
+		margin-top: calc(var(--app-spacing) / -1 - 4px);
+		margin-bottom: var(--app-spacing);
+		background: var(--bg-lvl-1);
+		border: none;
+		border-bottom-right-radius: var(--rounded-large);
+	}
+}

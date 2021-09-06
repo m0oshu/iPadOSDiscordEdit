@@ -1,0 +1,49 @@
+#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+	// My account
+	.accountProfileCard-1XCH88 {
+		background: var(--bg-lvl-1);
+	}
+	.background-1QDuV2 {
+		background: var(--bg-lvl-2);
+		border-radius: var(--rounded-large);
+	}
+	.avatarUploaderInner-3UNxY3 {
+		border-radius: var(--rounded-large);
+		background-color: rgb(var(--accent));
+	}
+	.avatarUploaderIndicator-2G-aIZ {
+		border-radius: var(--rounded-small);
+		box-shadow: none;
+	}
+	.fieldList-21DyL8 {
+		background: var(--bg-lvl-2);
+	}
+
+	// Connections
+	.accountList-33MS45 {
+		border-radius: var(--rounded-large);
+		background: var(--bg-lvl-1);
+	}
+	.accountBtnInner-sj5jLs {
+		background-color: var(--bg-lvl-2);
+		transition: background .15s ease;
+		&:hover {
+			background-color: var(--bg-lvl-3);
+		}
+	}
+	.connection-1fbD7X {
+		background: var(--bg-lvl-1);
+		border-radius: var(--rounded-large);
+	}
+	.connectionHeader-2MDqhu {
+		background: var(--bg-lvl-2);
+	}
+	.integration-3kMeY4 {
+		background: var(--bg-lvl-0);
+	}
+
+	// Appearance
+	.preview-2nSL_2 {
+		display: none;
+	}
+}

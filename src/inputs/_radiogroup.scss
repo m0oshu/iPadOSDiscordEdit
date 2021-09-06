@@ -1,0 +1,26 @@
+#app-mount [role="radiogroup"] {
+	.item-26Dhrx {
+		background: var(--bg-lvl-1);
+
+		.radioBar-bMNUI- {
+			padding: var(--spacing-md) var(--spacing-xl) !important;
+			grid-gap: 16px;
+			border-left-width: 6px;
+		}
+
+		&:hover {
+			background: var(--bg-lvl-2);
+		}
+
+		&[aria-checked="true"] {
+			color: #fff;
+			.radioBar-bMNUI- {
+				background: var(--radio-bar-accent-color, rgb(var(--accent)));
+				circle,
+				path {
+					color: #fff;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+#app-mount {
+	.privateChannels-1nO12o {
+		background: var(--bg-lvl-1);
+		margin-bottom: var(--app-spacing);
+		border-radius: 0 var(--rounded-small) var(--rounded-small) 0;
+	}
+	.scroller-1JbKMe {
+		background: transparent;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	.searchBar-6Kv8R2 {
+		box-shadow: none;
+		background: transparent;
+		height: auto;
+		padding: var(--spacing-xl) var(--spacing-xl) 0 var(--spacing-xl);
+	}
+	.searchBarComponent-32dTOx {
+		background: var(--bg-lvl-0);
+		padding: var(--spacing) var(--spacing-xl);
+		height: auto;
+		color: var(--text-normal);
+	}
+
+	.channel-2QD9_O {
+		max-width: unset;
+		margin: 0 var(--spacing-xl);
+
+		.layout-2DM8Md {
+			height: auto;
+			padding: var(--spacing) var(--spacing-md);
+			border-radius: var(--rounded-small);
+		}
+
+		&:hover {
+			.layout-2DM8Md {
+				background: var(--bg-lvl-2);
+			}
+			.wrapper-3t9DeA rect {
+				stroke: var(--bg-lvl-2);
+			}
+		}
+
+		&.selected-aXhQR6 {
+			color: #fff;
+			.layout-2DM8Md {
+				background: rgba(var(--accent), 1);
+			}
+			.wrapper-3t9DeA rect {
+				stroke: rgba(var(--accent), 1);
+			}
+		}
+	}
+}

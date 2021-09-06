@@ -1,0 +1,52 @@
+#app-mount {
+	// New Messages
+	.newMessagesBar-265mhP {
+		border-radius: var(--rounded-small);
+		left: calc(var(--chat-avatar-size) + var(--message-padding));
+		right: calc(var(--app-spacing) + var(--message-padding));
+		top: var(--app-spacing);
+		box-shadow: var(--elevation-far);
+		background: rgb(var(--accent));
+		opacity: 1;
+		&:hover {
+			box-shadow: inset 0 0 0 100vmax rgb(0 0 0 / .1), var(--elevation-far);
+		}
+
+		button {
+			height: auto;
+			padding: var(--spacing-sm) var(--spacing-xl);
+		}
+	}
+
+	// Reply
+	.attachedBars-tZDmyV {
+		background: transparent;
+	}
+	.container-2fRDfG {
+		margin-bottom: var(--spacing-xl);
+		border-radius: var(--rounded-large);
+		box-shadow: var(--elevation-close);
+		background: var(--bg-lvl-3);
+	}
+	.replyBar-1YLQ2F,
+	.threadSuggestionBar-2ufK2Z {
+		background: transparent;
+		border-radius: var(--rounded-large);
+	}
+
+	// Old messages
+	.jumpToPresentBar-G1R9s6 {
+		background: var(--bg-lvl-3);
+		padding: 0;
+		opacity: 1;
+		border-radius: var(--rounded-small);
+		left: 0;
+		right: calc(var(--app-spacing) + var(--message-padding));
+		bottom: var(--spacing-xl);
+		box-shadow: var(--elevation-close);
+		min-height: 36px;
+		button {
+			color: var(--text-normal);
+		}
+	}
+}

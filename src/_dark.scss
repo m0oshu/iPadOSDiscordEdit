@@ -1,0 +1,43 @@
+.theme-dark,
+html.theme-dark #app-mount .theme-light .root-1gCeng,
+html.theme-dark .force-theme.theme-light {
+	--bg-lvl-0: hsl(225, 9%, 9%);
+	--bg-lvl-1: hsl(225, 10%, 15%);
+	--bg-lvl-2: hsl(225, 11%, 21%);
+	--bg-lvl-3: hsl(225, 12%, 27%);
+
+	--status-online: hsl(89, 100%, 42%);
+	--status-idle: hsl(44, 100%, 48%);
+	--status-dnd: hsl(0, 76%, 50%);
+	--status-offline: hsl(228, 5%, 19%);
+
+	--text-muted: hsl(0, 0%, 53%);
+	--text-normal: hsl(0, 0%, 85%);
+	--text-focus: hsl(0, 0%, 100%);
+
+	// Button colours
+	--button: hsl(216, 5%, 18%);
+	--button-hover: hsl(0, 0%, 100%);
+	--button-hover-text: hsl(215, 28%, 17%);
+
+	// Box shadows
+	--elevation-close: 0 1px 3px 0 hsl(0, 0%, 0%, 0.1), 0 1px 2px 0 hsl(0, 0%, 0%, 0.06);
+	--elevation-far: 0 10px 15px -3px hsl(0, 0%, 0%, 0.3), 0 4px 6px -2px hsl(0, 0%, 0%, 0.2);
+
+	// Inputs
+	--input-focus: inset 0 0 0 100vmax hsl(0, 0%, 0%, 0.2);
+
+	// Others
+	--backdrop: hsl(0, 0%, 0%, 0.8);
+
+	// Discord variables
+	--interactive-muted: var(--text-muted);
+	--interactive-normal: var(--text-normal);
+	--interactive-active: hsl(0, 0%, 100%);
+
+	--background-modifier-hover: hsl(0, 0%, 0%, 0.2);
+
+	--channels-default: var(--text-normal);
+}
+
+// 2b2d30

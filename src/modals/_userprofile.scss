@@ -1,0 +1,229 @@
+@use '../assets';
+
+$leftSide: 260px;
+$rightSide: 704px;
+$bannerHeight: 200px;
+
+#app-mount .root-3QyAh1 {
+	background: transparent;
+	width: 980px;
+	display: grid;
+	grid-template-columns: $leftSide 1fr;
+	grid-gap: var(--spacing-xl);
+	overflow: visible;
+	height: 495px;
+	max-height: 495px;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: calc(-60px - var(--spacing-xl));
+		background: var(--bg-lvl-1);
+		box-shadow: var(--elevation-far);
+		border-radius: var(--rounded-large);
+		width: 100%;
+		height: 60px;
+	}
+
+	.topSection-y3p-_D {
+		width: 100%;
+		border-radius: var(--rounded-large);
+		box-shadow: var(--elevation-far);
+		padding: var(--spacing-xl);
+		box-sizing: border-box;
+		background: var(--bg-lvl-0);
+	}
+	.banner-2QYc2d {
+		position: absolute;
+		height: $bannerHeight;
+		top: 0;
+		width: $rightSide;
+		left: calc(#{$leftSide} + var(--spacing-xl));
+		border-radius: var(--rounded-large);
+		box-shadow: var(--elevation-far);
+	}
+	.profileBanner-33-uE1:before {
+		content: "";
+		background: rgb(0 0 0 / .2);
+		mask: url("#{assets.$pattern_1}");
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+	.header-4zuFdR {
+		position: unset;
+	}
+	.headerTop-547GTz {
+		padding: 0;
+		margin-top: var(--spacing-xl);
+		display: block;
+	}
+
+	// Badges
+	.badgeList-1R1WgZ {
+		margin: 0 0 calc(var(--spacing-xl) - 6px);
+		padding: 0;
+		&:empty {
+			margin: 0;
+		}
+	}
+	.profileBadge22-LJmn9o {
+		width: 32px;
+		height: 32px;
+	}
+
+	// Avatar
+	.avatar-AvHqJA {
+		position: relative;
+		top: 0;
+		left: 0;
+		border: none;
+		width: 228px !important;
+		height: 228px !important;
+		background: transparent;
+		rect {
+			width: 18px;
+			height: 18px;
+			x: 104px;
+			y: 104px;
+			stroke: var(--bg-lvl-0);
+			stroke-width: 4px;
+		}
+	}
+
+	// Name
+	.nameTag-ECvD8P {
+		position: absolute;
+		top: calc(var(--spacing-xl) / -1 - 42px);
+		margin: 0;
+		z-index: 1;
+	}
+
+	// Custom status
+	.customStatusActivity-nmH3DF {
+		padding: 0;
+		margin-bottom: var(--spacing-xl);
+	}
+
+	// Actions
+	.relationshipButtons-pUQVkf {
+		position: absolute;
+		top: calc(-78px - var(--spacing-xl));
+		right: var(--spacing-md);
+	}
+
+	// Tabs
+	.tabBarContainer-37hZsr {
+		width: 100%;
+		padding: 0;
+		display: block;
+		box-sizing: border-box;
+		border: none;
+		margin-top: var(--spacing-xl);
+	}
+	.tabBar-3nvOPa {
+		height: auto;
+		display: block;
+	}
+	.item-PXvHYJ {
+		height: auto;
+		border: none !important;
+		margin: 0;
+		padding: var(--spacing) var(--spacing-lg);
+		border-radius: var(--rounded-small);
+		&::before {
+			content: "";
+			width: 18px;
+			height: 18px;
+			background: var(--text-normal);
+			display: block;
+			margin-right: var(--spacing);
+			mask-size: 18px;
+			mask-position: center;
+			mask-repeat: no-repeat;
+			margin-right: var(--spacing);
+		}
+		&[aria-controls="USER_INFO-tab"]:before {
+			mask-image: url(assets.$icon_user);
+		}
+		&[aria-controls="ACTIVITY-tab"]:before {
+			mask-image: url(assets.$icon_rss);
+		}
+		&[aria-controls="MUTUAL_GUILDS-tab"]:before {
+			mask-image: url(assets.$icon_server);
+		}
+		&[aria-controls="MUTUAL_FRIENDS-tab"]:before {
+			mask-image: url(assets.$icon_users);
+		}
+		&:not(:last-child) {
+			margin-bottom: var(--spacing);
+		}
+		&:hover {
+			color: var(--text-focus);
+			background: var(--bg-lvl-1);
+		}
+		&.selected-3s45Ha {
+			color: #fff;
+			background: rgba(var(--accent), 1);
+		}
+	}
+	
+	// Body
+	.body-r6_QPy {
+		width: 100%;
+		height: 100%;
+		max-height: 280px;
+		margin-top: calc(#{$bannerHeight} + var(--spacing-xl));
+		background: var(--bg-lvl-1);
+		border-radius: var(--rounded-large);
+		overflow: hidden;
+		box-shadow: var(--elevation-far);
+		border: none;
+	}
+	.infoScroller-1Qu30O {
+		padding: var(--spacing-xl);
+	}
+
+	.userInfoSectionHeader-3TYk6R {
+		color: var(--text-normal);
+		font-size: var(--font-size-xsm);
+		margin-bottom: var(--spacing);
+		font-weight: var(--font-weight-bold);
+	}
+	.userInfoSection-q_35fn {
+		padding: 0 0 var(--spacing-xl);
+		border: none;
+		& + .userInfoSection-q_35fn {
+			padding-bottom: 0;
+			&::before {
+				content: "Connections";
+				color: var(--text-normal);
+				font-size: var(--font-size-xsm);
+				font-weight: var(--font-weight-bold);
+				text-transform: uppercase;
+				margin-bottom: var(--spacing);
+				display: block;
+			}
+		}
+	}
+	.note-367eZJ {
+		margin: 0;
+	}
+
+	// Connections
+	.connectedAccounts-QlRa4m {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: var(--spacing-xl);
+		margin-top: 0;
+	}
+	.connectedAccount-2Jb-Z0 {
+		margin: 0;
+		width: 100%;
+		box-sizing: border-box;
+		border: none;
+		background: var(--bg-lvl-2);
+		border-radius: var(--rounded-large);
+	}
+
+}

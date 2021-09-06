@@ -1,0 +1,25 @@
+#app-mount {
+	.content-yTz4x3:before {
+		content: none;
+	}
+	.chat-3bRxxu {
+		background: transparent;
+		overflow: visible;
+		&.threadSidebarOpen-vdkwIh .container-1r6BKw {
+			width: 100%;
+		}
+	}
+	.scrollerSpacer-avRLaA {
+		height: 48px;
+	}
+	.scroller-2LSbBU {
+		&::-webkit-scrollbar-track {
+			background: var(--bg-lvl-1);
+			border-color: var(--bg-lvl-0);
+		}
+		&::-webkit-scrollbar-thumb {
+			background: var(--bg-lvl-2);
+			border-color: var(--bg-lvl-0);
+		}
+	}
+}
